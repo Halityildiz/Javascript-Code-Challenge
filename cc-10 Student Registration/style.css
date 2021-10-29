@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+  margin: 1rem;
+}
+
+table,
+thead,
+td,
+th {
+  border: 1px solid #4b4bc4;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+th {
+  width: 150px;
+  text-align: left;
+}
+thead > tr {
+  background-color: #4b4bc4;
+}
+tr:nth-child(even) {
+  background-color: #b9b9c0;
+}

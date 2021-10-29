@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TR ID Number Validation</title>
+    <style>
+        input{
+            width: 800px;
+            height: 80px;
+            font-size: 5rem;
+            display: flex;
+        }
+        input:focus{
+            outline: 1px solid blueviolet;
+        }
+        button{
+            font-size: 2rem;
+            background-color: rgb(143, 12, 12);
+            padding: 30px;
+            margin: 10px 0;
+        }
+        p{
+            font-size: 3rem;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" id="idNumber" placeholder="Enter your ID Number here">
+    <button type="submit" id="checkNumber">Check ID</button>
+    <p id="test"></p>
+    <script src="app.js"></script>
+</body>
+</html>
